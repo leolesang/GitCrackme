@@ -26,3 +26,18 @@ d2j-dex2jar.sh -d <fichier>
 Frida
 ```
 
+#### Aide
+
+Apktool pour rebuild dl la latest version !
+```
+sudo nano /usr/local/bin/apktool2
+#!/bin/bash
+java -jar /workspace/apktool2.jar "$@"
+```
+
+```
+chmod +x /usr/local/bin/apktool2
+```
+
+Voir installer Docker sinon kali ! 
+Installer Android Studio (Emulateur) : https://www.youtube.com/watch?v=MCviSJz-fyY
