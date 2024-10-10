@@ -1,0 +1,3 @@
+Le secret est stocké dans /res/values/strings.xml 
+
+car dans le code this.secret = paramContext.getString(id);
